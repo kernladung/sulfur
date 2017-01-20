@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Neustart
+Categories=X-Leave;
+Exec=systemctl reboot
+Icon=gnome-session-reboot.png

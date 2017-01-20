@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Ausschalten
+Categories=X-Leave;
+Exec=systemctl poweroff
+Icon=gnome-shutdown.png

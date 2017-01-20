@@ -1,0 +1,163 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+ "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+
+<Menu>
+
+	<Name>Applications</Name>
+
+	<!-- Read standard .directory and .desktop file locations -->
+	<DefaultAppDirs/>
+	<DefaultDirectoryDirs/>
+
+	<!-- Read in overrides and child menus from applications-merged/ -->
+	<DefaultMergeDirs/>
+
+	<!-- Accessories submenu -->
+	<Menu>
+		<Name>Accessories</Name>
+		<Directory>sulfur-utility.directory</Directory>
+		<Include>
+			<And>
+				<Category>Utility</Category>
+				<Not><Category>Accessibility</Category></Not>
+				<Not><Category>System</Category></Not>
+			</And>
+		</Include>
+	</Menu> <!-- End Accessories -->
+
+	<!-- Development Tools -->
+	<Menu>
+		<Name>Development</Name>
+		<Directory>sulfur-development.directory</Directory>
+		<Include>
+			<And>
+				<Category>Development</Category>
+			</And>
+			<Filename>emacs.desktop</Filename>
+		</Include>
+	</Menu> <!-- End Development Tools -->
+
+	<!-- Games -->
+	<Menu>
+		<Name>Games</Name>
+		<Directory>sulfur-game.directory</Directory>
+		<Include>
+			<And>
+				<Category>Game</Category>
+			</And>
+		</Include>
+	</Menu> <!-- End Games -->
+
+	<!-- Graphics -->
+	<Menu>
+		<Name>Graphics</Name>
+		<Directory>sulfur-graphics.directory</Directory>
+		<Include>
+			<And>
+				<Category>Graphics</Category>
+				<Not><Category>Utility</Category></Not>
+			</And>
+		</Include>
+	</Menu> <!-- End Graphics -->
+
+	<!-- Internet -->
+	<Menu>
+		<Name>Internet</Name>
+		<Directory>sulfur-network.directory</Directory>
+		<Include>
+			<And>
+				<Category>Network</Category>
+			</And>
+		</Include>
+	</Menu>	 <!-- End Internet -->
+
+
+	<!-- Multimedia -->
+	<Menu>
+		<Name>Multimedia</Name>
+		<Directory>sulfur-audio-video.directory</Directory>
+		<Include>
+			<And>
+				<Category>AudioVideo</Category>
+			</And>
+		</Include>
+	</Menu>	 <!-- End Multimedia -->
+
+	<!-- Office -->
+	<Menu>
+		<Name>Office</Name>
+		<Directory>sulfur-office.directory</Directory>
+		<Include>
+			<And>
+				<Category>Office</Category>
+			</And>
+		</Include>
+	</Menu> <!-- End Office -->
+
+	<!-- System Tools-->
+	<Menu>
+		<Name>System</Name>
+		<Directory>sulfur-system-tools.directory</Directory>
+		<Include>
+			<And>
+				<Category>System</Category>
+				<Not><Category>Settings</Category></Not>
+				<Not><Category>PackageManager</Category></Not>
+				<Not><Category>X-Leave</Category></Not>
+				<Not><Category>Screensaver</Category></Not>
+			</And>
+		</Include>
+	</Menu>	 <!-- End System Tools -->
+
+	<!-- Other -->
+	<Menu>
+		<Name>Other</Name>
+		<Directory>sulfur-other.directory</Directory>
+		<OnlyUnallocated/>
+		<Include>
+			<And>
+				<Not><Category>Core</Category></Not>
+				<Not><Category>Settings</Category></Not>
+				<Not><Category>Screensaver</Category></Not>
+			</And>
+		</Include>
+	</Menu> <!-- End Other -->
+
+	<!-- Settings -->
+	<Menu>
+		<Name>DesktopSettings</Name>
+		<Directory>sulfur-settings.directory</Directory>
+		<Include>
+			<Or>
+				<Category>Settings</Category>
+				<Category>PackageManager</Category>
+				<Category>LXQt</Category>
+			</Or>
+		</Include>
+	</Menu> <!-- End Settings -->
+
+	<!-- Leave -->
+	<Menu>
+		<Name>X-Leave</Name>
+		<Directory>sulfur-leave.directory</Directory>
+		<Include>
+			<And>
+				<Category>X-Leave</Category>
+			</And>
+		</Include>
+	</Menu>	 <!-- End Leave -->
+
+	<Layout>
+	
+		<Merge type="files"/>
+		<Merge type="menus"/>
+
+		<Separator/>
+
+		<Menuname show_empty="false">X-Leave</Menuname>
+		
+	</Layout>
+
+
+</Menu> <!-- End Applications -->
+	

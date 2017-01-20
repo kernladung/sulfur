@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Abmelden
+Categories=X-Leave;
+Exec=openbox --exit
+Icon=gnome-logout.png

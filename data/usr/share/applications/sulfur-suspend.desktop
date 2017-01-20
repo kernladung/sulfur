@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Schlafen
+Categories=X-Leave;
+Exec=systemctl suspend
+Icon=gnome-session-suspend.png
