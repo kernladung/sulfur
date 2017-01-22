@@ -1,4 +1,4 @@
-Predefined menu-file and directory-files for [californium](https://github.com/kernladung/californium) and [platinum](https://github.com/kernladung/platinum).
+Predefined menu-file and directory-files for [californium](https://github.com/mlde/californium) and [platinum](https://github.com/mlde/platinum).
 
 
 # Get it
