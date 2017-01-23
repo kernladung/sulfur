@@ -41,7 +41,8 @@ Edit conf-file ie `~/.config/mlde/platinum.conf`:
 [General]
 ...
 menu=/etc/xdg/menus/sulfur-applications.menu
-
+...
+```
 
 # Uninstall it
 
