@@ -49,4 +49,4 @@ To uninstall *sulfur* open a terminal in the root folder of the repository and:
 
 	$ sudo ninja uninstall
 
-Of course you have to change the settings in `californium` and/or `platinum` too.
+Of course you have to change the settings in `californium` and/or `platinum` too. 
