@@ -16,8 +16,6 @@ Predefined menu-file and directory-files for [californium](https://github.com/ml
 
 To install *sulfur* open a terminal in the root folder of the repository and:
 
-(in development, currently does not work!)
-
 	$ sudo ninja install
 
 
@@ -43,3 +41,12 @@ Edit conf-file ie `~/.config/mlde/platinum.conf`:
 [General]
 ...
 menu=/etc/xdg/menus/sulfur-applications.menu
+
+
+# Uninstall it
+
+To uninstall *sulfur* open a terminal in the root folder of the repository and:
+
+	$ sudo ninja uninstall
+
+Of course you have to change the settings in `californium` and/or `platinum` too.
