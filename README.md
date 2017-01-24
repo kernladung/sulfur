@@ -12,11 +12,11 @@ Predefined menu-file and directory-files for [californium](https://github.com/ml
 
 # Install it
 
-*sulfur* uses [ninja](https://github.com/ninja-build/ninja) as build-tool. 
+*sulfur* uses [make](https://www.gnu.org/software/make/) as build-tool. 
 
 To install *sulfur* open a terminal in the root folder of the repository and:
 
-	$ sudo ninja install
+	$ sudo make install
 
 
 # Enable it
@@ -48,6 +48,6 @@ menu=/etc/xdg/menus/sulfur-applications.menu
 
 To uninstall *sulfur* open a terminal in the root folder of the repository and:
 
-	$ sudo ninja uninstall
+	$ sudo make uninstall
 
 Of course you have to change the settings in `californium` and/or `platinum` too. 
