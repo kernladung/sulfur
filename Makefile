@@ -2,7 +2,7 @@ install:
 	cp -r data/* /
 
 uninstall:
-	rm \
+	rm -f \
 	/etc/xdg/menus/sulfur-applications.menu \
 	/usr/share/applications/sulfur-hibernate.desktop \
 	/usr/share/applications/sulfur-logout.desktop \
