@@ -1,3 +1,1 @@
-- show screennames to identify screen
-- add commands to run if mouse leaves sensor
-- change icon names to our own icon-theme
+

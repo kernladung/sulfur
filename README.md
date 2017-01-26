@@ -25,7 +25,7 @@ Edit your application menu to use the new menu-file:
 
 ### californium
 
-Edit conf-file ie `~/.config/mlde/californium.conf`:
+Edit conf-file ie `~/.config/californium/californium.conf`:
 
 ```
 [General]
@@ -35,7 +35,7 @@ menu=/etc/xdg/menus/sulfur-applications.menu
 
 ### platinum
 
-Edit conf-file ie `~/.config/mlde/platinum.conf`:
+Edit conf-file ie `~/.config/platinum/platinum.conf`:
 
 ```
 [General]
