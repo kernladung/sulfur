@@ -1,4 +1,4 @@
-Predefined menu-file and directory-files for [californium](https://github.com/mlde/californium), [strontium](https://github.com/mlde/strontium) and [zirconium](https://github.com/mlde/zirconium).
+Predefined menu-file for [californium](https://github.com/mlde/californium), [strontium](https://github.com/mlde/strontium) and [zirconium](https://github.com/mlde/zirconium).
 
 
 # Get it
