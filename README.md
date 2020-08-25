@@ -1,9 +1,9 @@
-Predefined menu-file and directory-files for [californium](https://github.com/mlde/californium) and [platinum](https://github.com/mlde/platinum).
+Predefined menu-file and directory-files for [californium](https://github.com/mlde/californium), [strontium](https://github.com/mlde/strontium) and [zirconium](https://github.com/mlde/zirconium).
 
 
 # Get it
 
-- clone the repository with `$ git clone https://github.com/mlde/sulfur` 
+- clone the repository with `$ git clone https://github.com/mlde/europium` 
 
 **or** 
 
@@ -12,11 +12,7 @@ Predefined menu-file and directory-files for [californium](https://github.com/ml
 
 # Install it
 
-*sulfur* uses [make](https://www.gnu.org/software/make/) as build-tool. 
-
-To install *sulfur* open a terminal in the root folder of the repository and:
-
-	$ sudo make install
+[missing]
 
 
 # Enable it
@@ -30,24 +26,33 @@ Edit conf-file ie `~/.config/californium/californium.conf`:
 ```
 [General]
 ...
-menu=/etc/xdg/menus/sulfur-applications.menu
+menu=/etc/xdg/menus/europium-applications.menu
 ```
 
-### platinum
+### strontium
 
-Edit conf-file ie `~/.config/platinum/platinum.conf`:
+Edit conf-file ie `~/.config/strontium/strontium.conf`:
 
 ```
 [General]
 ...
-menu=/etc/xdg/menus/sulfur-applications.menu
+menu=/etc/xdg/menus/europium-applications.menu
+...
+```
+
+### zirconium
+
+Edit conf-file ie `~/.config/zirconium/zirconium.conf`:
+
+```
+[General]
+...
+menu=/etc/xdg/menus/europium-applications.menu
 ...
 ```
 
 # Uninstall it
 
-To uninstall *sulfur* open a terminal in the root folder of the repository and:
+[missing]
 
-	$ sudo make uninstall
-
-Of course you have to change the settings in `californium` and/or `platinum` too. 
+Of course you have to change the settings in `californium`, `strontium` and/or `zirconium` too. 
