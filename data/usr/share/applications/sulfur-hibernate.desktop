@@ -1,6 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Ruhezustand
-Categories=X-Leave;
-Exec=systemctl hibernate
-Icon=gnome-session-hibernate.png
